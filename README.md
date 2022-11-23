@@ -1,5 +1,7 @@
 # pws-ai
-Applying AI to predict PWS treatment's effect (as a photo)
+Applying AI to predict PWS treatment's effect
+* input: photo before
+* output: prediction (photo after)
 
 ![alt text](README_photos/pws_before_after.jpeg)
 
@@ -51,10 +53,13 @@ Therefore following have to be done/tried out:
 * Isolate patient's head & neck from their clothes 
 * Underline PWS with imagining methods (make it stand out more compared to rest of the body, or do the opposite - make rest of the body *grayer*)
 
-### Training AI
+
+### Researching the AI
 To mind come 2 following AIs:
-* GANs
+* GANs (especially CycleGAN)[paper] - (https://arxiv.org/abs/1703.10593)
 * CNNs
+
+I'll also be researching if there are any ANN's that deal well with 3d images, or if there were any similar applications in the field (predicting output of some treatment as a photo). 
 
 ### Testing
 Test on un-seen data. Possible further tests offline in real life case scenario
