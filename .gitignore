@@ -133,3 +133,6 @@ dmypy.json
 # My additions:
 .DS_Store
 notes_myself.txt
+*.jpg
+*.png
+*.tom
