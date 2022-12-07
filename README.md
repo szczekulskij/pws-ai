@@ -1,3 +1,6 @@
+# Disclaimer
+Due to use of sensitive data, this repo isn't being updated. The work is being done on private repo. Expect updates soon, once we've added censoring to photos
+
 # pws-ai
 Applying AI to predict PWS treatment's effect
 * input: photo before
